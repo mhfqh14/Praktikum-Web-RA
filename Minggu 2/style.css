@@ -1,0 +1,135 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: lavenderblush;
+}
+header{
+    overflow: hidden;
+    background-color: teal;
+    padding: 20px 10px;
+}
+.kata{
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    float:right;
+    line-height: 80px;
+    border-radius: 4px;
+}
+header a{
+    color: black;
+}
+nav{
+    background-color: cadetblue;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    line-height: 80px;
+    top : 0;
+}
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-top: 4px ;
+    border-bottom: 1px ;
+}
+caption {
+    font-weight: bold;
+    padding : 4px 0px 4px 0px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid black;
+}
+thead tr {
+    background-color: lightsteelblue
+}
+th{
+    padding: 13px;
+    width: auto;
+}
+tbody tr{
+    background-color: lightsteelblue;
+    border-bottom: 1px solid black;
+    color: black;
+}
+tbody td {
+    padding: 13px;
+}
+tbody tr:hover{
+    background-color: skyblue
+}
+aside{
+    width: 730px;
+    height:800px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    color: black;
+}
+aside a{
+    text-align: left;
+}
+aside:hover{
+    text-decoration: none;
+}
+.sejajar{
+    display: flex;
+}
+.berita{
+    display: flex;
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    font-size: 15px;
+}
+.headerside{
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    display: flex;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: seashell;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
